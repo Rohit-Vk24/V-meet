@@ -4,25 +4,49 @@
     width: 100vw;
     background-color: rgb(2, 2, 31);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     
 }
 
+.container img{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+.container h1{
+    position: absolute;
+    top: 10px;
+    left: 4vw;
+    font-size: 3em;
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
 .heading{
     margin: 50px;
     color: aliceblue;
-    font-size: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+}
+
+.heading p{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40vw;
 }
 
 
-
 .box{
+    position: relative;
+    top: 5vh;
     border: 3px solid white;
     height: 40vh;
     width: 40vw;
@@ -49,9 +73,10 @@
 }
 
 .join input{
-    height: 30px;
+    height: 40px;
     width: 15vw;
     border-radius: 40px;
+    border: none;
 }
 
 .join button{
